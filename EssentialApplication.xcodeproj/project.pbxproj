@@ -51,6 +51,7 @@
 		7E77D5922981703700E38475 /* FeedAcceptanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E77D5912981703700E38475 /* FeedAcceptanceTests.swift */; };
 		7E77D5942981726400E38475 /* HttpClientStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E77D5932981726400E38475 /* HttpClientStub.swift */; };
 		7E77D5962981729400E38475 /* InMemoryFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E77D5952981729400E38475 /* InMemoryFeedStore.swift */; };
+		7E77D5A32981D07400E38475 /* UIView+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E77D5A22981D07400E38475 /* UIView+TestHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,6 +125,7 @@
 		7E77D5912981703700E38475 /* FeedAcceptanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedAcceptanceTests.swift; sourceTree = "<group>"; };
 		7E77D5932981726400E38475 /* HttpClientStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClientStub.swift; sourceTree = "<group>"; };
 		7E77D5952981729400E38475 /* InMemoryFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InMemoryFeedStore.swift; sourceTree = "<group>"; };
+		7E77D5A22981D07400E38475 /* UIView+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+TestHelpers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,6 +235,7 @@
 				7E77D5612981609700E38475 /* XCTestCase+MemoryLeakTracking.swift */,
 				7E77D5932981726400E38475 /* HttpClientStub.swift */,
 				7E77D5952981729400E38475 /* InMemoryFeedStore.swift */,
+				7E77D5A22981D07400E38475 /* UIView+TestHelpers.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -378,6 +381,7 @@
 				7E77D55529815F7200E38475 /* FeedLoaderWithFallbackCompositeTests.swift in Sources */,
 				7E77D55A2981601E00E38475 /* FeedLoaderStub.swift in Sources */,
 				7E77D58929816E5A00E38475 /* UIButton+TestHelpers.swift in Sources */,
+				7E77D5A32981D07400E38475 /* UIView+TestHelpers.swift in Sources */,
 				7E77D55329815F6600E38475 /* FeedLoaderCacheDecoratorTests.swift in Sources */,
 				7E77D5922981703700E38475 /* FeedAcceptanceTests.swift in Sources */,
 				7E77D58629816E5A00E38475 /* FeedViewControllerTests+LoaderSpy.swift in Sources */,
